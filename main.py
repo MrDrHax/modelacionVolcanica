@@ -4,7 +4,7 @@ This work by Alejandro Fernandez del Valle Herrea is licensed under CC BY 4.0 CC
 Volcano sim, a code to just have fun, and maybe educate yourself a little bit!
 gl hf
 '''
-import dataCreator
+import pages.dataCreator as dataCreator
 
 class tcolour:
     GREEN = '\033[92m'
