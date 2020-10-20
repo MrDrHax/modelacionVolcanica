@@ -1,21 +1,28 @@
-This code is a volcano simulator, it is pretty simple, but I made it for school.
+This code is a volcano simulator, I made it for a school project!.
 
-# to run the code:
+# To run the code:
 
-go into main.py, and run it
+Go into `setup.py`, and run it to ensure all dependencies are installed
 
-if you have a console oppened to the same folder, run:
+To run the code, I made a bash script to start the streamlit server automatically, this however does not work perfectly on every single senario, therefore I would recomend you oppen a terminal and navigate to the source folder. 
 
-### python3 main.py
+There, you can run `streamlit run mainStreamlit.py` and the server will start that way.
 
-# requirements
+A webpage should start automatically, but if it does not start automatically, go to [localhost:8501](http://localhost:8501/)
 
-this code requires to have installed:
+I hope you learn something from this project.
 
-python 3.8.x
+
+# Requirements
+
+This code requires:
+
+python 3.8+
 
 numpy
 
 matplotlib
 
 mpl_toolkits (included in matplotlib)
+
+streamlit

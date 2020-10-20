@@ -4,10 +4,10 @@ import sys
 def install(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-if sys.version_info[0] >= 3 and sys.version_info[1] >= 8:
+if sys.version_info[0] >= 3 and sys.version_info[1] >= 8 or sys.version_info[0] > 3:
     print('python version meets minimum requirements')
 else:
-    print('python version 3.8 + is requiered. please install it at: https://www.python.org/ to proceed.')
+    print('python version 3.8+ is requiered. please install it at: https://www.python.org/ to proceed.')
     exit()
 
 try:

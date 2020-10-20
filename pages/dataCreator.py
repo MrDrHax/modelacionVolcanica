@@ -222,7 +222,7 @@ class plotter:
             xs = self.lines[i].x
             ys = self.lines[i].z
             zs = self.lines[i].y
-            ax.plot(xs, ys, label=f"line {i} with drag")
+            ax.plot(xs, ys, zs, label=f"line {i} with drag")
 
             if self.lines[i].withDrag:
                 xs = self.lines[i].x_withoutDrag
@@ -248,6 +248,10 @@ class plotter:
             xs = self.lines[i].x
             ys = self.lines[i].y
             ax.plot(xs, ys, label=f"line {i}")
+            if self.lines[i].withDrag:
+                xs = self.lines[i].x_withoutDrag
+                ys = self.lines[i].y_withoutDrag
+                ax.plot(xs, ys, label=f"line {i} without drag")
 
         ax.set_xlabel('X ')
         ax.set_ylabel('Y ')
