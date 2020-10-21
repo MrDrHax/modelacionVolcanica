@@ -22,7 +22,7 @@ But I see, you want to store your launches for future use, well, we got you cove
 
 All excel saves will make sure you save all the information for you to do whatever you want with all the datasets!
 
-![excel image](excel.png)
+![excel image](https://github.com/MrDrHax/modelacionVolcanica/blob/gh-pages/excel.png)
 
 If you wish to just save your image, and later graph it again, no problem, our JSON format ensures that all the information is stored, and anyone who knows how to do something with it, can play with it in code!
 
