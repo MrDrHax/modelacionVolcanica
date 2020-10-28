@@ -1,5 +1,6 @@
 This code is a volcano simulator, I made it for a school project!.
 
+making many things over here!
 # To run the code:
 
 Go into `setup.py`, and run it to ensure all dependencies are installed
