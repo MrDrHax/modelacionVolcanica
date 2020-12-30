@@ -61,4 +61,4 @@ if all works, run in the same terminal:
 
 and that's it!
 
-if it kikes you out, go to localhost:8501 to rejoin!
+if it kicks you out, go to localhost:8501 to rejoin!
